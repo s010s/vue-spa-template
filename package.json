@@ -49,7 +49,7 @@
     "port": "webpack-dev-server --progress --colors --inline --port 9090 ",
     "hot": "webpack-dev-server --progress --colors --inline --hot",
     "cp": "cp --remove-destination -r index.html ./build ./platform d:/wamp/www/vue",
-    "ip": "webpack-dev-server  --progress --colors --hot --host=leonleung.hna.net  --port 9000"
+    "ip": "webpack-dev-server  --progress --colors --hot --host=localhost  --port 9000"
   },
   "author": "leon leung",
   "license": ""
