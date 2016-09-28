@@ -1,50 +1,52 @@
 # vue-spa-template
 
-##应用到的框架与库
 
-###vue:
+###应用到的框架与库
+
+vue:
 
 https://github.com/vuejs/vue
 
 https://cn.vuejs.org/
 
-###webpack:
+webpack:
 
 https://webpack.github.io/
 
-###vue-router:
+vue-router:
 
 https://github.com/vuejs/vue-router
 
-###vux:
+vux:
 
 https://github.com/airyland/vux
 
-###vuex(暂缺demo):
+vuex(暂缺demo):
 
 https://github.com/vuejs/vuex/tree/1.0/docs/zh-cn
 
-###gulp:
+gulp:
 
 https://github.com/gulpjs/gulp
 
-###cordova
+cordova
 
-###eking
+eking
 
-##安装配置与使用
+
+###安装配置与使用
 
 git clone https://github.com/s010s/vue-spa-template.git
 
 npm install
 
-###本地调试：
+####本地调试：
 npm run dev
 
-###发布到指定端口调试(package.json中修改，默认9000)：
+####发布到指定端口调试(package.json中修改，默认9000)：
 npm run ip
 
-###发布：
+####发布：
 
 windows:
 
@@ -54,7 +56,7 @@ mac os:
 
 npm run mb
 
-###打包压缩
+####打包压缩
 
 gulp
 
