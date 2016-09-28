@@ -17,6 +17,8 @@ vue-router:
 
 https://github.com/vuejs/vue-router
 
+https://github.com/vuejs/vue-router/tree/1.0/docs/zh-cn
+
 vux:
 
 https://github.com/airyland/vux
@@ -29,9 +31,15 @@ gulp:
 
 https://github.com/gulpjs/gulp
 
-cordova
+hammer:
 
-eking
+https://hammerjs.github.io/
+
+cordova(仅用于兜兜移动端，可不引入)
+
+eking(仅用于兜兜移动端，可不引入)
+
+doudou(仅用于兜兜移动端，可不引入)
 
 
 ###安装配置与使用

@@ -29,6 +29,7 @@
 
 .fade-enter {
   opacity: 1;
+  -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
 }
 
@@ -98,6 +99,7 @@ button {
   display: none;
 }
 </style>
+
 <template>
   <div class="app">
     <p v-if="authenticating" style="color:red">Authenticating...</p>
@@ -377,4 +379,5 @@ module.exports = {
     //this.$set('as',new AwesomeSheet({ touchDismiss: false }));
   }
 }
+
 </script>

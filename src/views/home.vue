@@ -16,6 +16,7 @@ import Group from 'vux-comp/group'
 import Cell from 'vux-comp/cell'
 import Calendar from 'vux-comp/calendar'
 
+
 module.exports = {
   components: {
     Group,
