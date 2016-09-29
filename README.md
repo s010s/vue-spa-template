@@ -17,6 +17,8 @@ vue-router:
 
 https://github.com/vuejs/vue-router
 
+http://www.cnblogs.com/keepfool/p/5690366.html
+
 https://github.com/vuejs/vue-router/tree/1.0/docs/zh-cn
 
 vux:
