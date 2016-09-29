@@ -27,9 +27,13 @@ vux:
 
 https://github.com/airyland/vux
 
+https://www.gitbook.com/book/vuxjs/vux
+
 vuex(暂缺demo):
 
 https://github.com/vuejs/vuex/tree/1.0/docs/zh-cn
+
+http://www.html-js.com/article/3663
 
 gulp:
 
