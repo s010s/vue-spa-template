@@ -127,7 +127,11 @@ gulp.task('setEnv', function(cb) {
 
 gulp.task('listTopTenPkg', function(cb) {
   var count = 0
-  glob(PACKAGEPATH + env + '/*.zip', function(er, files) {
+  glob(PACKAGEPATH + '测试' + '/*.zip', function(er, files) {
+    files = files.sort(function(a,b){
+      var v_a = a.split('/')[a.split('/').length-1].split('.').slice(0,3)
+      var v_b = b.split('/')[b.split('/').length-1].split('.').slice(0,3)
+    })
     count = files.length >= 10 ? 10 : files.length
     if (count === 0) {
       console.log('There is no relative package.')
