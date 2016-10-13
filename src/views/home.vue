@@ -11,7 +11,6 @@
       <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
       <switch :title="'双向绑定:值为' + value1" :value.sync="value1"></switch>
     </group>
-    aa
   </div>
 </template>
 <script>
